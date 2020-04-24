@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ckr.pageview.view.PageView
+        android:id="@+id/pageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"
+        app:autoplay="false"
+        app:hide_indicator="true"
+        app:layout_flag="linear"
+        app:loop="false"
+        app:orientation="horizontal"
+        app:page_column="one"
+        app:page_row="one" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:background="#fff"
+        app:itemIconTint="@color/color_menu"
+        app:itemTextColor="@drawable/selector_home_navigation_color"
+        app:labelVisibilityMode="auto" />
+</FrameLayout>

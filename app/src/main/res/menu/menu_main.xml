@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_multi_check"
+        android:icon="@drawable/ic_multi_check"
+        android:title="多选"/>
+
+    <item
+        android:id="@+id/main_single_check"
+        android:icon="@drawable/ic_single_check"
+        android:title="单选"/>
+
+</menu>

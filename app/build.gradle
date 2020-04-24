@@ -25,5 +25,11 @@ dependencies {
     api commonDepend.appcompat_v7
     api commonDepend.recyclerview_v7
     api commonDepend.constraint_layout
+
     implementation project(':treeselector')
+    // butterknife
+    implementation commonDepend.butterknife
+    annotationProcessor commonDepend.butterknife_compiler
+    implementation commonDepend.pageView
+
 }
